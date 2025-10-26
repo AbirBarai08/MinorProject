@@ -7,7 +7,7 @@ import HourlyForecast from "./components/HourlyForecast";
 import DailyForecast from "./components/DailyForecast";
 import Error from "./components/Error";
 
-const API_KEY = "e0f13d524db4487f443365de1b5cfbb0";
+const API_KEY = import.meta.env.API_KEY;
 
 export default function App() {
   const [weatherData, setWeatherData] = useState(null);

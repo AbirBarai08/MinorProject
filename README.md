@@ -1,16 +1,80 @@
-# React + Vite
+# 🌦 Weather Forecast Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page React application that lets users search any city and view current weather, hourly forecast, and 7-day forecast using the OpenWeatherMap API.  
+Built with React, Tailwind CSS, Axios, and Day.js.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📑 Table of Contents
 
-## React Compiler
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation & Setup](#installation--setup)
+- [Environment Variables](#environment-variables)
+- [Run Locally](#run-locally)
+- [Build & Deployment](#build--deployment)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Further Improvements](#further-improvements)
+- [References](#references)
+- [License](#license)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧪 Demo
+*(You can add screenshots or a live demo link here once you deploy it.)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔍 Search for any city worldwide  
+- 🌡 View current weather (temperature, humidity, wind speed, condition)  
+- 🕐 Hourly forecast (next 12 hours)  
+- 📅 Daily forecast (7 days)  
+- 💻 Responsive layout using Tailwind CSS  
+- 🧭 Clean and modern UI  
+
+---
+
+## 🛠 Technologies Used
+
+- **ReactJS** — Frontend framework  
+- **Tailwind CSS** — Styling  
+- **Axios** — HTTP requests  
+- **Day.js** — Date formatting  
+- **OpenWeatherMap API** — Weather data provider  
+
+---
+
+## 📁 Project Structure
+
+src/
+├─ components/
+│ ├─ SearchBar.jsx
+│ ├─ CurrentWeather.jsx
+│ ├─ HourlyForecast.jsx
+│ └─ DailyForecast.jsx
+├─ App.jsx
+├─ index.js
+└─ index.css
+
+
+---
+
+## 🧰 Prerequisites
+
+- Node.js (v16+ or later)
+- npm (v8+)
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
