@@ -7,7 +7,7 @@ import HourlyForecast from "./components/HourlyForecast";
 import DailyForecast from "./components/DailyForecast";
 import Error from "./components/Error";
 
-const API_KEY = import.meta.env.API_KEY;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 export default function App() {
   const [weatherData, setWeatherData] = useState(null);
