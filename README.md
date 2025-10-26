@@ -24,11 +24,6 @@ Built with React, Tailwind CSS, Axios, and Day.js.
 
 ---
 
-## 🧪 Demo
-*(You can add screenshots or a live demo link here once you deploy it.)*
-
----
-
 ## ✨ Features
 
 - 🔍 Search for any city worldwide  
