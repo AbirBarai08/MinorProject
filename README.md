@@ -1,7 +1,7 @@
 # 🌦 Weather Forecast Web Application
 
 A single-page React application that lets users search any city and view current weather, hourly forecast, and 7-day forecast using the OpenWeatherMap API.  
-Built with React, Tailwind CSS, Axios, and Day.js.
+Built with React, Tailwind CSS, Axios, Material UI, and Day.js.
 
 ---
 
